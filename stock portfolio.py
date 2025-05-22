@@ -1,4 +1,4 @@
-# Hardcoded stock prices
+# stock prices
 stock_prices = {
     "AAPL": 180,
     "TSLA": 250,
@@ -27,7 +27,7 @@ while True:
         continue
     portfolio[stock] = portfolio.get(stock, 0) + quantity
 
-# Calculate total investment
+# Calculation of total investment
 for stock, qty in portfolio.items():
     value = stock_prices[stock] * qty
     total_value += value
