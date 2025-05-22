@@ -1,6 +1,6 @@
 import random
 
-# List of 5 predefined words
+#list of words
 words = ["apple", "house", "robot", "plane", "chair"]
 
 # Randomly select a word from the list
